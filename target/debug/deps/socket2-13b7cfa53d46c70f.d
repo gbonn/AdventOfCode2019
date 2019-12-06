@@ -1,0 +1,11 @@
+C:\Users\grigaboo\Documents\devWork\AdventOfCode2019\target\debug\deps\socket2-13b7cfa53d46c70f.rmeta: C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\lib.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sockaddr.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\socket.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\utils.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sys\windows.rs
+
+C:\Users\grigaboo\Documents\devWork\AdventOfCode2019\target\debug\deps\libsocket2-13b7cfa53d46c70f.rlib: C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\lib.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sockaddr.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\socket.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\utils.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sys\windows.rs
+
+C:\Users\grigaboo\Documents\devWork\AdventOfCode2019\target\debug\deps\socket2-13b7cfa53d46c70f.d: C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\lib.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sockaddr.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\socket.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\utils.rs C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sys\windows.rs
+
+C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\lib.rs:
+C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sockaddr.rs:
+C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\socket.rs:
+C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\utils.rs:
+C:\Users\grigaboo\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.3.11\src\sys\windows.rs:

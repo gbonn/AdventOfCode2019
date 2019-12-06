@@ -1,0 +1,13 @@
+prefix=C:\Users\grigaboo\Documents\devWork\AdventOfCode2019\target\debug\build\libz-sys-4858212d8ed60417\out
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+sharedlibdir=@sharedlibdir@
+includedir=@includedir@
+
+Name: zlib
+Description: zlib compression library
+Version: @VERSION@
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
