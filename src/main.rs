@@ -1,112 +1,25 @@
+use std::fs;
+
 fn main() {
-    get_day1_inputs();
+    let day_1_input_masses = get_day1_inputs();
+    let mut total_mass = 0;
+
+    for mass in day_1_input_masses {
+        total_mass += calc_fuel_needed(mass);
+    }
+
+    println!("Total mass: {}", total_mass);
 }
 
-fn calc_fuel_needed(mass: i32) -> i32 {
+fn calc_fuel_needed(mass: u32) -> u32 {
     return (mass / 3) - 2;
 }
 
-fn get_day1_inputs() -> Vec {
-    let day1_input_vec = vec![50350
-    104487
-    101866
-    143582
-    58497
-    69981
-    98300
-    119291
-    148489
-    83005
-    107291
-    124738
-    142256
-    108102
-    121054
-    119697
-    75546
-    109022
-    136754
-    52073
-    115235
-    87668
-    64523
-    71179
-    69071
-    142380
-    68233
-    115226
-    132656
-    137007
-    82838
-    79339
-    131726
-    52295
-    102941
-    98297
-    144374
-    118998
-    63910
-    146772
-    82916
-    72068
-    82855
-    55915
-    91663
-    82917
-    105876
-    119551
-    70639
-    114459
-    129235
-    56041
-    70031
-    145187
-    54913
-    56928
-    52159
-    144384
-    80104
-    83932
-    81334
-    72693
-    50595
-    128895
-    54138
-    79126
-    69930
-    72896
-    108357
-    67415
-    110581
-    131477
-    65517
-    87912
-    125782
-    51785
-    145472
-    54358
-    87715
-    98067
-    99791
-    92502
-    50750
-    76614
-    110137
-    56118
-    149501
-    76542
-    87183
-    128333
-    127657
-    144246
-    141704
-    96873
-    62434
-    136609
-    121829
-    111796
-    103936
-    69807]
+fn get_day1_inputs() -> Vec<u32> {
+    let input_text = fs::read_to_string("src/Day_1/day_1_input.txt").unwrap();
+    let input_vec: Vec<u32> = input_text.split("\r\n").map(|input_value| input_value.parse::<u32>().unwrap()).collect();
+
+    return input_vec;
 }
 
 #[test]
